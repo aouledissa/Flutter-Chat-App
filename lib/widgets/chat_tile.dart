@@ -17,8 +17,9 @@ class ChatTile extends StatelessWidget {
       decoration: BoxDecoration(
         color: chat.unread ? Color(0xFFFFEFEE) : Colors.white,
         borderRadius: BorderRadius.only(
-            topRight: Radius.circular(20.0),
-            bottomRight: Radius.circular(20.0)),
+          topRight: Radius.circular(20.0),
+          bottomRight: Radius.circular(20.0),
+        ),
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
